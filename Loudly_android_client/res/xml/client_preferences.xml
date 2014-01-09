@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Server info" >
+        <EditTextPreference
+            android:inputType="phone"
+            android:key="prefServerIP"
+            android:summary="Set server IP address"
+            android:title="Server IP" />
+        <EditTextPreference
+            android:inputType="number"
+            android:key="prefServerPort"
+            android:summary="Set server port number"
+            android:title="Server port" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Audio settings" >
+        <ListPreference
+            android:entries="@array/ChannelOptions"
+            android:entryValues="@array/ChannelOptionsAndValues"
+            android:key="prefChannels"
+            android:summary="Channel type information of audio file"
+            android:title="Channels" />
+        <ListPreference
+            android:entries="@array/EncodingOptionsAndValues"
+            android:entryValues="@array/EncodingOptionsAndValues"
+            android:key="prefEncoding"
+            android:summary="Encoding of audio file"
+            android:title="Encoding" />
+        <ListPreference
+            android:entries="@array/SamplingRateOptionsAndValues"
+            android:entryValues="@array/SamplingRateOptionsAndValues"
+            android:key="prefSamplingRate"
+            android:summary="Sampling rate of audio file"
+            android:title="Sampling rate" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other" >
+        <EditTextPreference
+            android:inputType="number"
+            android:key="prefInterval"
+            android:summary="Servers data sending interval (ms)"
+            android:title="Send interval" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/client_preferences.xml" />
+        <ignore path="res/layout/pref_layout.xml" />
+    </issue>
+    <issue id="NestedScrolling">
+        <ignore path="res/layout/pref_layout.xml" />
+    </issue>
+    <issue id="ViewConstructor" severity="ignore" />
+</lint>

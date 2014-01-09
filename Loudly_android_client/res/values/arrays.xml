@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- CHANNEL SETTINGS -->
+    <string-array name="ChannelOptions">
+        <item name="1">Mono</item>
+        <item name="2">Stereo</item>
+    </string-array>
+    <string-array name="ChannelOptionsAndValues">
+        <item name="1">1</item>
+        <item name="2">2</item>
+    </string-array>
+
+    <!-- SAMPLING RATE -->
+    <string-array name="SamplingRateOptionsAndValues">
+        <item name="1000">1000</item>
+        <item name="8000">8000</item>
+        <item name="11025">11025</item>
+        <item name="16000">16000</item>
+        <item name="22050">22050</item>
+        <item name="24000">24000</item>
+        <item name="32000">32000</item>
+        <item name="41000">41000</item>
+        <item name="48000">48000</item>
+        <item name="96000">96000</item>
+    </string-array>
+
+    <!-- ENCODING -->
+    <string-array name="EncodingOptionsAndValues">
+        <item name="8">8</item>
+        <item name="16">16</item>
+        <item name="24">24</item>
+        <item name="32">32</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- White Top color -->
+    <item>
+        <shape
+            android:dither="true"
+            android:shape="oval"
+            android:useLevel="true" >
+            <gradient
+                android:endColor="@color/def_white"
+                android:startColor="@color/drk_blue"
+                android:type="sweep"
+                android:useLevel="false" />
+
+            <size
+                android:height="100sp"
+                android:width="100sp" />
+        </shape>
+    </item>
+    <item
+        android:bottom="4sp"
+        android:left="4sp"
+        android:right="4sp"
+        android:top="4sp">
+        <shape
+            android:shape="oval"
+            android:useLevel="false" >
+            <solid android:color="@color/def_white" />
+
+            <size
+                android:height="100sp"
+                android:width="100sp" />
+        </shape>
+    </item>
+
+</layer-list>

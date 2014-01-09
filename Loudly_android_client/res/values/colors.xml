@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="def_blue">#0055AA</color>
+    <color name="lgt_blue">#0074BF</color>
+    <color name="drk_blue">#04568C</color>
+    <color name="def_white">#f2f2f2</color>
+    <color name="def_black">#0D0D0D</color>
+    <color name="ple_blue">#D4EBFF</color>
+    <color name="ple_blue2">#96B7D4</color>
+    
+
+</resources>
