@@ -1,5 +1,6 @@
-Loudly  ![ScreenShot](https://raw2.github.com/ahuskano/Loudly/master/loudly_logo.png)
-======
+            ![ScreenShot](https://raw2.github.com/ahuskano/Loudly/master/loudly_logo.png)
+
+
 Loudly is an application that can play music (only .wav files) right from your PC on your Android devices. 
 On your PC, you have to start Java server and pick a song, while on your mobile device you have to connect to 
 the server IP. If the IP displayed in server console is not right, you can use ipconfig in your command line tool. 
