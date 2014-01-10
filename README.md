@@ -19,4 +19,5 @@ Authors:
 - Pavlović Milan
 
 Students of Faculty of Organization and Informatics (FOI) in Varaždin
+
 Members of FOI Mobile Technology (MT) Lab
